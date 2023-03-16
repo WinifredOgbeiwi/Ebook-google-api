@@ -4,7 +4,6 @@ import DetailPage from "./DetailPage";
 function Card({ books }) {
   const [show, setShow] = useState(false);
   const [bookItem, setBookItem] = useState();
-  console.log(books);
 
   return (
     <>
