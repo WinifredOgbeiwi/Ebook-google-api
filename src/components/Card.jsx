@@ -22,10 +22,10 @@ function Card({ books }) {
               <div className="flex flex-col justify-center align-middle w-full">
               <img src={coverImage} alt="" className=" h-[60%] object-contain rounded-md" />
               <div className="">
-                <h4 className="text-sm h-10 w-[90%]  text-ellipsis font-semibold mt-2 truncate ">{book.volumeInfo.title}</h4>
-               <a href="/"> <p className="bg-blue-500 text-white  text-[8px] absolute bottom-3 sm:bottom-1 right-3 left-3 font-medium rounded-sm">
+                <h4 className="text-sm  w-[90%]  text-ellipsis font-semibold mt-2 truncate ">{book.volumeInfo.title}</h4>
+            <p className="bg-blue-500 text-white  text-[8px] absolute bottom-3 sm:bottom-1 right-3 left-3 font-medium rounded-sm">
                   {book.saleInfo.saleability}
-                </p></a>
+                </p>
               </div>
               </div>
             </div>
