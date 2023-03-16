@@ -35,9 +35,8 @@ function Modal({ show, book, onClose }) {
 
             </div>
 
-
             <div className="mt-3">
-              <p className=" ">
+              <p className="text-xl sm:text-2xl font-light ">
                 {book.volumeInfo.description}
               </p>
               <a href={book.volumeInfo.previewLink
