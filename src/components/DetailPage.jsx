@@ -15,10 +15,8 @@ function Modal({ show, book, onClose }) {
             <TiTimes />
           </button>
 
-          <div className="">
-
+          <div>
             <div className="py-8 flex border-b-4 border-sky-300 flex-col text-center sm:text-left sm:flex-row gap-5">
-
               <img src={coverImages} alt="coverImages" className="object-cover" />
               <div>
                 <h1 className="text-3xl  xl:text-6xl md:text-4xl font-bold ">{book.volumeInfo.title}</h1>
@@ -26,10 +24,12 @@ function Modal({ show, book, onClose }) {
                   <h3 className="mt-3 text-md sm:text-xl ">By:<span className="text-sky-700">{book.volumeInfo.authors} </span> </h3>
                   <h4 className="text-sm sm:text-xl text-black">{book.volumeInfo.publisher} <span className="text-gray-400"> {book.volumeInfo.publishedDate}</span></h4>
                   <p className="text-sm sm:text-xl">Category: <span className="text-sky-700 ">{book.volumeInfo.categories}</span></p>
-                  <a href={book.accessInfo.pdf}> 
+                 
+                  {/* <a href={book.accessInfo.pdf}> 
                   <button className="outline-none border-none text-lg rounded-md bg-sky-300 text-white font-semibold py-1 px-5 hover:bg-sky-700 mt-2 ">
                     Download 
-                  </button></a>
+                  </button></a> */}
+                
                 </div>
               </div>
 

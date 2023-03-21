@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react'
 import Card from './Card';
-import Background from './images/6607.jpg'
+import Background from './images/mainImage.jpg'
 function Body() {
     const [search, setSearch] = useState('');
     const [bookData, setBookData] = useState([]);
@@ -34,7 +34,7 @@ function Body() {
       </section>
       <div className='bg-[rgba(119,206,246,0.32)] backdrop-blur-3xl py-10 mt-3'>
               <section className='w-11/12 mx-auto mt-6 flex flex-wrap gap-2 justify-center'>
-      <Card books = {bookData}/>
+          <Card books={bookData} key={bookData.id} />
       </section>
       </div>
          <p className='bg-sky-500 text-center'>
