@@ -9,7 +9,7 @@ function Modal({ show, book, onClose }) {
   return (
     <>
       <div className="min-h-screen fixed top-0 left-0  right-0  flex items-center justify-center bg-[#0000000c]" >
-        <div className="bg-white flex flex-col gap-2 w-2/3 text-2xl relative p-10">
+        <div className="bg-white flex flex-col gap-2 w-10/12 md:w-2/3 text-2xl relative p-10">
           <button className="text-5xl absolute top-4 right-4 outline-none border-none "
             onClick={onClose}>
             <TiTimes />

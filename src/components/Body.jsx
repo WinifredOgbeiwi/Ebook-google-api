@@ -33,7 +33,7 @@ function Body() {
         backgroundSize:'cover'}}>
       </section>
       <div className='bg-[rgba(119,206,246,0.32)] backdrop-blur-3xl py-10 mt-3'>
-              <section className='w-11/12 mx-auto mt-6 flex flex-wrap gap-2 justify-center'>
+              <section className='mx-auto mt-6 flex flex-wrap gap-2 justify-center'>
           <Card books={bookData} key={bookData.id} />
       </section>
       </div>
